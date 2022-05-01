@@ -1,0 +1,70 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  margin: 2px;
+}
+
+.searchBar {
+  z-index: 9999;
+  position: relative;
+  width: 99%;
+  padding-top: 10px;
+  margin-bottom: 25px;
+  background-color: white;
+}
+
+.search {
+  background-color: white;
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  margin: 0px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.search:focus {
+  background-color: white;
+  padding-top: 10px;
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 95%;
+  outline: none;
+  margin: 0px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.btn-container{
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch; */
+  /* grid-template-columns: auto auto auto auto; */
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+/*  */
+.box-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.card {
+  border: 2px solid black;
+  margin: 2px;
+  padding: 2px;
+  text-align: left;
+}
+
+.lighted {
+  border: 3px solid green;
+}
